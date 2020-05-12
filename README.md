@@ -1,10 +1,10 @@
-# EDK2 UEFI Firmware For Xiaomi MI 8 (Dipper)
-Attempt to create a normal EDK2 for Xiaomi MI8 - dipper.
+# EDK2 UEFI Firmware For Smartisan R1
+Attempt to create a normal EDK2 for Smartisan R1.
 
 Based on zhuowei's port for [Pixel3XL](https://github.com/Pixel3Dev/edk2-pixel3/).
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNekokeCore%2Fedk2-dipper.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNekokeCore%2Fedk2-dipper?ref=badge_shield)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNekokeCore%2Fedk2-dipper.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2FNekokeCore%2Fedk2-dipper?ref=badge_small)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNekokeCore%2Fedk2-dipper.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fedk2-porting%2Fedk2-r1?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNekokeCore%2Fedk2-dipper.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fedk2-porting%2Fedk2-r1?ref=badge_small)
 
 ## The Most Important
 DO NOT FLASH THIS UEFI FIRMWARE IN YOUR MAIN PHONE !!!
@@ -97,12 +97,12 @@ git checkout cfdc7f907d545b14302295b819ea078bc36c6a40
 
 2.Clone this project
 ```
-git clone https://github.com/NekokeCore/edk2-dipper.git
+git clone https://github.com/edk2-porting/edk2-r1.git
 ```
 
 3.Build eenvironment
 ```
-cd edk2-dipper
+cd edk2-r1
 mkdir workspace
 bash firstrun.sh
 ```
@@ -121,8 +121,8 @@ MemoryMap thanks [Lemon1Ice](https://github.com/Lemon1Ice).
 
 ACPI etc. tables thanks [5超级菜鸟5](https://github.com/sunshuyu)
 
-Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
 
 SimpleFbDxe screen driver is from imbushuo's [Lumia950XLPkg](https://github.com/WOA-Project/Lumia950XLPkg).
 
 Also thanks [edk2 website](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC#Install_required_software_from_apt).
+
