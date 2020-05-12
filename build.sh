@@ -13,7 +13,7 @@ gzip -c < workspace/Build/R1Pkg/DEBUG_GCC5/FV/R1PKG_UEFI.fd >uefi_img
 cat dipper.dtb >>uefi_img
 # build common
 gzip -c < workspace/Build/R1Pkg/DEBUG_GCC5/FV/R1PKG_UEFI.fd >uefi.img
-cat dipper.dtb >>uefi.img
+cat r1.dtb >>uefi.img
 # build Abooting Img
 abootimg --create boot.img -k uefi_img -r ramdisk -f bootimg.cfg
 rm -rf ./uefi_img
